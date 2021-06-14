@@ -36,18 +36,4 @@ class Human extends Mammal
   {
     echo "L'humain parle avec son voisin" . PHP_EOL;
   }
-
-  public function reproduce()
-  {
-    echo "L'humain se reproduit" . PHP_EOL;
-  }
-
-  public function breastFeed()
-  {
-    if ($this->female) {
-      echo "L'humain allaite ses petits" . PHP_EOL;
-    } else {
-      echo "L'humain n'est pas une femelle" . PHP_EOL;
-    }
-  }
 }

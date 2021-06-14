@@ -18,6 +18,15 @@ abstract class Mammal
   // Methodes
   abstract public function move();
   abstract public function communicate();
-  abstract public function reproduce();
-  abstract public function breastFeed();
+  
+  public function reproduce() {
+    echo "Se reproduit" .  PHP_EOL;
+  }
+  public function breastFeed()   {
+    if ($this->female) {
+      echo "Allaite ses petits" . PHP_EOL;
+    } else {
+      echo "N'est pas une femelle" . PHP_EOL;
+    }
+  }
 }

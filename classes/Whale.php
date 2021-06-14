@@ -33,18 +33,4 @@ class Whale extends Mammal
   {
     echo "La baleine envoi un sonar" . PHP_EOL;
   }
-
-  public function reproduce()
-  {
-    echo "La baleine se reproduit" .  PHP_EOL;
-  }
-
-  public function breastFeed()
-  {
-    if ($this->female) {
-      echo "La baleine allaite ses petits" . PHP_EOL;
-    } else {
-      echo "La baleine n'est pas une femelle" . PHP_EOL;
-    }
-  }
 }
